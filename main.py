@@ -20,9 +20,9 @@ def download_image(url, save_path):
         print(f"Terjadi kesalahan: {e}")
 
 
-nama_file = "medan.csv"
+nama_file = "bali.csv"
 
-direktori_tujuan = "medan"
+direktori_tujuan = "bali"
 os.makedirs(direktori_tujuan, exist_ok=True)
 
 with open(nama_file, mode="r") as file:
